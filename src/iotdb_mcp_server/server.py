@@ -276,4 +276,4 @@ elif config.sql_dialect == "table":
 if __name__ == "__main__":
     logger.info("iotdb_mcp_server running with stdio transport")
     # Initialize and run the server
-    mcp.run(transport="stdio")
+    mcp.run(transport="sse")
